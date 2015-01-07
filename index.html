@@ -1,0 +1,372 @@
+<!DOCTYPE html> <!-- Powered by Bootstrap v3.2.0 -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="My personal website">
+    <meta name="author" content="Richard A Schmidt">
+    <link rel="icon" href="images/favicon.ico">
+
+    <title>RAS - Home Page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/cover.css" rel="stylesheet">
+
+    <!-- Fontface Vollkorn used in this website -->
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400italic' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <!-- masthead type navbar -->
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h2 class="masthead-brand">Richard A Schmidt</h2>
+              <ul class="nav masthead-nav">
+                <li class="active"><a href="index.html">Home<br />Page</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects<br />&amp; Resume<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li class="dropdown-header">Projects</li>
+                      <li><a href="#project1" data-toggle="modal"><span class="glyphicon glyphicon-folder-open"></span> Project 1</a></li>
+                      <li><a href="#project2" data-toggle="modal"><span class="glyphicon glyphicon-folder-open"></span> Project 2</a></li>
+                      <li><a href="#project3" data-toggle="modal"><span class="glyphicon glyphicon-folder-open"></span> Project 3</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#resume" data-toggle="modal"><span class="glyphicon glyphicon-file"></span>Resume</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hobbies<br />&amp; Interests<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li class="dropdown-header">Hobbies</li>
+                      <li><a href="#guitars" data-toggle="modal"><span class="glyphicon glyphicon-music"></span> Music</a></li>
+                      <li><a href="#mycooking" data-toggle="modal"><span class="glyphicon glyphicon-glass"></span> Cooking</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#interests" data-toggle="modal"><span class="glyphicon glyphicon-tower"></span> Interests</a></li>
+                      <li class="divider"></li>
+                      <li class="dropdown-header">Media</li>
+                      <li><a href="video.html"><span class="glyphicon glyphicon-film"></span> Video</a></li>
+                      <li><a href="pictures.html"><span class="glyphicon glyphicon-picture"></span> Pictures</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact" data-toggle="modal">Contact<br />Me</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- inner cover with home page info -->
+
+          <div class="inner cover">
+            <div class="img-responsive"><img src ="images/richschm2014.png" class= "img-rounded"></div>
+            <h1 class="cover-heading">Welcome to my Website!</h1>
+            <p class="lead">Check out my elevator pitch and pictures<br /> from my summer vacation in Yellowstone National Park.</p>
+            <p class="lead">
+              <div class="btn btn-lg btn-link"><a href="video.html"><span class="glyphicon glyphicon-film "></span> Video</a></div>
+              <div class="btn btn-lg btn-link"><a href="pictures.html"><span class="glyphicon glyphicon-picture"></span> Pictures</a></div>
+            </p>
+          </div>
+
+          <!-- mastfoot footer -->
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>&copy; Richard A Schmidt<br /><small>This site is powered by <a href="http://getbootstrap.com" target="_blank">Bootstrap</a></small></p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Project 1 Modal within Projects & Resume -->
+
+    <div class = "modal fade" id="project1" role = "dialog">
+      <div class = "modal-dialog">
+        <div class ="modal-content">
+          <div class ="modal-header">
+            <button type = "button" class="close" data-dismiss="modal"><span aria-hidden="true" class="glyphicon glyphicon-remove-circle"></span></button>
+            <h4>Project 1: <small>MySQL and PHP</small><h4>
+          </div>
+          <div class = "modal-body">
+            <p class="image">
+              <img src="images/projects-modal.png" alt="MySQL and PHP">
+            </p>
+            <p>
+              <blockquote>This was an individual project that was completed during the spring semester of 2014 for Database Fundamentals(MIS 4300). We were given a set of instructions to guide us in developing a program to interface a MySQL database through a localhost. To test our database and tables, we were given 2 queries to run in our database.</blockquote>
+            </p>
+          </div>
+          <div class = "modal-footer">
+            <a href="projectsandresume/database_richardschmidt2014.docx"><button type="button" class="btn btn-primary download" data-placement="top" data-trigger="hover"><span class="glyphicon glyphicon-floppy-save"></span> Save</button></a>
+            <button class = "btn btn-danger" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 Modal within Projects & Resume -->
+
+    <div class = "modal fade" id="project2" role = "dialog">
+      <div class = "modal-dialog">
+        <div class ="modal-content">
+          <div class ="modal-header">
+            <button type = "button" class="close" data-dismiss="modal"><span aria-hidden="true" class="glyphicon glyphicon-remove-circle"></span></button>
+            <h4>Project 2: <small>EER Diagram</small><h4>
+          </div>
+          <div class = "modal-body">
+            <p class="image">
+              <img src="images/projects2-modal.png" alt="EER Diagram">
+            </p>
+            <p>
+              <blockquote>This is an individual project that was completed during the spring semester of 2014 for Database Fundamentals(MIS 4300). We were given a set of business rules and had to draw out an Enhanced Entity Relationship Diagram for a hospital setting. I received an A+ on this project.</blockquote>
+            </p>
+          </div>
+          <div class = "modal-footer">
+            <a href="projectsandresume/database_richardschmidt2014.docx"><button type="button" class="btn btn-primary download" data-placement="top" data-trigger="hover"><span class="glyphicon glyphicon-floppy-save"></span> Save</button></a>
+            <button class = "btn btn-danger" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3 Modal within Projects & Resume -->
+
+    <div class = "modal fade" id="project3" role = "dialog">
+      <div class = "modal-dialog">
+        <div class ="modal-content">
+          <div class ="modal-header">
+            <button type = "button" class="close" data-dismiss="modal"><span aria-hidden="true" class="glyphicon glyphicon-remove-circle"></span></button>
+            <h4>Project 3: <small>Java Create and Search Books</small><h4>
+          </div>
+          <div class = "modal-body">
+            <p class="image">
+              <img src="images/projects3.png" alt="Java Project">
+            </p>
+            <p>
+              <blockquote>This was an individual project that was completed during the spring semester of 2014 for Java Programming (MIS 4310). This is a basic GUI developed using Java Swing to create and search entries for books. The create GUI inputs the data into a CSV file while the search GUI retrieves the data. Save 1 is the java code for search books and Save 2 is a picture of what the application look like when executed.</blockquote>
+            </p>
+          </div>
+          <div class = "modal-footer">
+            <a href="projectsandresume/SearchbookDb.txt"><button type="button" class="btn btn-primary download" data-placement="top" data-trigger="hover"><span class="glyphicon glyphicon-floppy-save"></span> Save 1</button></a>
+            <a href="projectsandresume/SearchbookdbGUI.pptx"><button type="button" class="btn btn-primary download" data-placement="top" data-trigger="hover"><span class="glyphicon glyphicon-floppy-save"></span> Save 2</button></a>
+            <button class = "btn btn-danger" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Resume Modal within Projects and Resume -->
+
+    <div class = "modal fade" id="resume" role = "dialog">
+      <div class = "modal-dialog">
+        <div class ="modal-content">
+          <div class ="modal-header">
+            <button type = "button" class="close" data-dismiss="modal"><span aria-hidden="true" class="glyphicon glyphicon-remove-circle"></span></button>
+            <h4>Project 1: <small>MySQL and PHP</small><h4>
+          </div>
+          <div class = "modal-body">
+            <p class="image">
+              <img src="images/resume.png" alt="My Resume">
+            </p>
+            <p>
+              <blockquote>Here is a copy of my updated resume.</blockquote>
+            </p>
+          </div>
+          <div class = "modal-footer">
+            <a href="projectsandresume/Richard Schmidt_Resume_2014(Updated).docx"><button type="button" class="btn btn-primary download" data-placement="top" data-trigger="hover"><span class="glyphicon glyphicon-floppy-save"></span> Save</button></a>
+            <button class = "btn btn-danger" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for Guitars in Interests and Hobbies -->
+
+    <div class = "modal fade" id="guitars" role = "dialog">
+      <div class = "modal-dialog">
+        <div class ="modal-content">
+          <div class ="modal-header">
+            <button type = "button" class="close" data-dismiss="modal"><span aria-hidden="true" class="glyphicon glyphicon-remove-circle"></span></button>
+            <h4>Guitars<h4>
+          </div>
+          <div class = "modal-body">
+            <p class="image">
+              <img src="images/guitars1.png" alt="My Guitars">
+            </p>
+            <p>
+              <blockquote class="well">Here is a collection of my guitars and various effects pedals I have picked up over the years. Guitars from left to right: Ibanez GIO RG: 4 string bass, Schecter C-1 S/H: Duncan Designed humbucker Pick-ups w/ push and pull tone knobs, Epiphone SG Gothic: Stock neck pick-up and custom DiMarzio Evolution bridge pick-ups, Ibanez RG-570: DiMarzio Evolution neck and bridge pick-ups with a HS-3 single coil pick-up, and a Lucero electric/classical guitar.</blockquote>
+            </p>
+          </div>
+          <div class = "modal-footer">
+            <button class = "btn btn-danger" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for Cooking in Interests and Hobbies -->
+
+    <div class = "modal fade" id="mycooking" role = "dialog">
+      <div class = "modal-dialog">
+        <div class ="modal-content">
+          <div class ="modal-header">
+            <button type = "button" class="close" data-dismiss="modal"><span aria-hidden="true" class="glyphicon glyphicon-remove-circle"></span></button>
+            <h4>Hobbies<small>- Cooking</small><h4>
+          </div>
+          <div class = "modal-body">
+            <p class="image">
+              <img src="images/cooking.png" alt="Steak and Eggs for breakfast">
+            </p>
+            <p>
+              <blockquote class="well">Here is a sample of one of the various cultural dishes I cook from time to time. This is thin ribeye, eggs over easy, wheat toast, and Korean red ginseng tea. I also like to cook: Italian, American Bar-B-Que, various roasted meals, fried chicken, hot wings, and many more.</blockquote>
+            </p>
+          </div>
+          <div class = "modal-footer">
+            <button class = "btn btn-danger" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for Interests in Interests and Hobbies -->
+
+    <div class = "modal fade" tabindex="-1" id="interests" role = "dialog">
+      <div class = "modal-dialog">
+        <div class ="modal-content">
+          <div class ="modal-header">
+            <button type = "button" class="close" data-dismiss="modal"><span aria-hidden="true" class="glyphicon glyphicon-remove-circle"></span></button>
+            <h4>Interests</h4>
+          </div>
+          <div class = "modal-body">
+
+            <!-- START THE FEATURETTES -->
+
+            <div class="row featurette">
+              <div class="col-xs-7">
+                <h4 class="featurette-heading">DFW<small> IT Professionals</small></h4>
+                <p>
+                  <blockquote><small>Here is a link to the DFW IT Professionals website. This is an effort by local IT professionals for networking and information sessions on new emerging technologies.</small></blockquote>
+                </p>
+              </div>
+              <div class="col-xs-5">
+              <a href="http://www.dfwitprofessionals.com/" target="_blank"><button type="button" class="btn btn-lg btn-default pull-right"><img class="featurette-image img-responsive img-rounded" src="images/dfw.jpg" alt="Generic placeholder image"></button></a>
+
+              </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+              <div class="col-xs-5">
+                <a href="http://www.http//jindal.utdallas.edu/academic-areas/information-systems-and-operations-management/information-systems-programs/certificate-programs/" target="_blank"><button type="button" class="btn btn-lg btn-default"><img class="featurette-image img-responsive img-rounded" src="images/utd1.png" alt="Generic placeholder image"></button></a>
+              </div>
+              <div class="col-xs-7">
+                <h4 class="featurette-heading">UTD<small> Certificate Programs</small></h4>
+                <p>
+                  <blockquote><small>Here is a link to the University of Texas at Dallas' list of business certifications and programs they offer for examination preparation.</small></blockquote>
+                </p>
+              </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+              <div class="col-xs-7">
+                <h4 class="featurette-heading">SAP<small> Certifications</small></h4>
+                <p>
+                  <blockquote><small>Here is a link to an informational page on SAP certifications. This is a good information page for those who are interested in or already going through a certification course.</small></blockquote>
+                </p>
+              </div>
+              <div class="col-xs-5">
+                <a href="http://sap-certification.info/" target="_blank"><button type"class" class="btn btn-lg btn-default pull-right"><img class="featurette-image img-responsive img-rounded" src="images/sap1.png" alt="Generic placeholder image"></button></a>
+              </div>
+            </div>
+
+            <!-- /END THE FEATURETTES -->
+
+            <div class = "modal-footer">
+              <button class = "btn btn-danger" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for Contact Me -->
+
+    <div class = "modal fade" id = "contact" role = "dialog">
+            <div class = "modal-dialog">
+              <div class = "modal-content">
+                <div class = "modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true" class="glyphicon glyphicon-remove-circle"></span></button>
+                  <h4>Contact Me:</h4>
+                </div>
+                <div class = "modal-body">
+                  <form class = "form-horizontal" role="form" method="POST" action="php/sendemail.php">
+                    <div class = "form-group">
+                      <label for = "name" class = "col-lg-2 control-label"><p class="cont">Name</p></label>
+                        <div class = "col-lg-10">
+                          <input type = "text" class = "form-control" name="name" id = "name" placeholder = "Full Name">
+                        </div>
+                    </div>
+
+                    <div class = "form-group">
+                      <label for = "email" class = "col-lg-2 control-label"><p class="cont">E-Mail</p></label>
+                        <div class = "col-lg-10">
+                          <input type = "email" class = "form-control" name="email" id = "email" placeholder = "you@example.com">
+                        </div>
+                    </div>
+
+                    <div class = "form-group">
+                      <label for = "msg" class = "col-lg-2 control-label"><p class="cont">Message</p></label>
+                        <div class = "col-lg-10">
+                          <textarea name="msg" id="msg" class = "form-control" rows = "8" placeholder = "Message here..."></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class= "modal-footer">
+                  <a href="http://www.linkedin.com/pub/richard-schmidt/88/591/177/" target="_blank" class="btn"><img class="btn" src="images/my-linkedin-profile-button.png" alt="linkedin"></a>
+                  <button class = "btn btn-primary" type = "submit" value="Submit" id="send_btn" data-trigger="focus" data-placement="top"><span class="glyphicon glyphicon-envelope"></span> Send</button>
+                  </form>
+                  <a class = "btn btn-danger" data-dismiss = "modal"><span class="glyphicon glyphicon-remove"></span> Close</a>
+                </div>
+              </div>
+            </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <!-- Popover script with Thank You Message -->
+    <script>
+      $('#send_btn').popover({content: 'Thank You'},'click');
+    </script>
+    <!-- Popover script for Download buttons in Projects and Resume -->
+    <script>
+      $('.download').popover({content: 'Click here to Download Now!'},'click');
+    </script>
+  </body>
+</html>
